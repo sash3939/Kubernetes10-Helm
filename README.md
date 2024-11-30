@@ -88,6 +88,34 @@ drwxr-xr-x 5 root root 4096 Nov 29 23:20 40-helm
 2. Одну версию в namespace=app1, вторую версию в том же неймспейсе, третью версию в namespace=app2.
 3. Продемонстрируйте результат.
 
+Проверка
+
+<img width="421" alt="check chart demo" src="https://github.com/user-attachments/assets/8e315f48-a56c-4cbe-aed6-3f908acad76e">
+
+<img width="406" alt="install helm template" src="https://github.com/user-attachments/assets/d3a2c9c9-2466-4b0f-9763-857cb1f56bab">
+
+<img width="499" alt="get all check" src="https://github.com/user-attachments/assets/ab3e8d49-e0a8-4caa-b085-b271fc93d652">
+
+<img width="506" alt="helm list" src="https://github.com/user-attachments/assets/c61344be-4507-4bd9-b187-083194b65379">
+
+Запустим несколько версий приложения
+
+<img width="548" alt="versions apps" src="https://github.com/user-attachments/assets/9d3f8e4f-3a15-468e-8dec-73e41b515db4">
+
+Удалим наш helm demo1 чтобы потом создать новый в namespace из условия задачи
+
+<img width="359" alt="delete helm" src="https://github.com/user-attachments/assets/6c0f3626-769b-4972-963b-c0ccc372ead6">
+
+Создаем helm по заданию в п.2
+
+<img width="666" alt="create helm with 2 apps and namespace" src="https://github.com/user-attachments/assets/46581908-8221-4949-93f0-073e7ff5c6d3">
+
+<img width="397" alt="satus pods in new apps" src="https://github.com/user-attachments/assets/9581c295-2994-422e-900d-9f3f23e04918">
+
+Удаляем helms
+
+<img width="460" alt="delete helm all" src="https://github.com/user-attachments/assets/e9332960-569a-4058-bd94-1c97b2991055">
+
 ### Правила приёма работы
 
 1. Домашняя работа оформляется в своём Git репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
